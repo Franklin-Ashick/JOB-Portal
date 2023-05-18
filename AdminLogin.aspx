@@ -3,3 +3,4 @@
 // Commit log for testing - Improved login responsiveness
 // Commit log for testing - Added comments to improve clarity
 // Commit log for testing - Improved UI alignment
+// Commit log for testing - Removed unused variables
