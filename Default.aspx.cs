@@ -9,3 +9,4 @@
 // Commit log for testing - Added form validation in register
 // Commit log for testing - 
 // Commit log for testing - Created helper class for login
+// Commit log for testing - Cleaned up CSS classes
