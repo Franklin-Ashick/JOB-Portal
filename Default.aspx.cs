@@ -10,3 +10,4 @@
 // Commit log for testing - 
 // Commit log for testing - Created helper class for login
 // Commit log for testing - Cleaned up CSS classes
+// Commit log for testing - Updated styling for recruiter section
