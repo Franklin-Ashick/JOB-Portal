@@ -4,3 +4,4 @@
 // commit for 2023-05-12T10:37:00
 // commit for 2023-06-07T10:33:00
 // Commit log for testing - Fixed header display bug
+// Commit log for testing - Optimized candidate search logic
