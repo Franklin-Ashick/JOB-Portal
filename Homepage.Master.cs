@@ -6,3 +6,4 @@
 // Commit log for testing - Fixed header display bug
 // Commit log for testing - Optimized candidate search logic
 // Commit log for testing - Cleaned up CSS classes
+// Commit log for testing - Created helper class for login
