@@ -1,0 +1,350 @@
+﻿a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.acc-not {
+    font-size: 13px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.login-page {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.login-form {
+    background: #fff;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.login-image {
+    width: 50%;
+    float: left;
+}
+
+.login-image, .log-inner img {
+    height: 100%;
+    max-height: 535px;
+    object-fit: cover;
+}
+
+.login-area form#contactForm {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: #fff;
+}
+
+.login-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 7px 15px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    min-height: 36px;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    padding: 10px 30px;
+    border: 1px solid #221ad2;
+    background: #221ad2;
+    color: #fff;
+    transition: 0.4s;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 2px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+}
+
+    .login-btn:hover {
+        border: 1px solid #221ad2;
+        background: transparent;
+        color: #221ad2;
+        transition: 0.4s;
+    }
+
+.flex-box {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.check-group {
+    position: relative;
+    margin: 0px 0px 20px;
+}
+
+.check-box {
+    color: #151b2c;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    outline: none;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.check-box-input {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-height: 25px;
+    height: 26px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.remember-text {
+    color: #151b2c;
+    font-weight: 300;
+    font-size: 12px;
+    left: 25px;
+    position: absolute;
+    top: 2px;
+}
+
+.text-muted {
+    font-size: 12px;
+    float: right;
+    margin-top: 2px;
+}
+
+.separetor1 {
+    margin-top: 10px;
+}
+
+.separetor span {
+    background: #fff;
+    position: relative;
+    top: 10px;
+    padding: 10px 0px 0px;
+}
+
+.sign-icon {
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+}
+
+    .sign-icon ul li {
+        display: inline-block;
+        margin: 0px 5px;
+    }
+
+        .sign-icon ul li a {
+            color: red;
+            display: block;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding: 0px 30px 0px 0px;
+            font-weight: 600;
+        }
+
+            .sign-icon ul li a.facebook {
+                color: #3B5998
+            }
+
+            .sign-icon ul li a.twitter {
+                color: #00ACED
+            }
+
+            .sign-icon ul li a.google {
+                color: #C32F10
+            }
+
+
+.signup-form .check-group {
+    position: relative;
+    margin: 0px 0px 20px;
+}
+
+.signup-page .login-image, .signup-page .log-inner img {
+    height: 100%;
+    max-height: 588px;
+    object-fit: cover;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,900|Muli:300,400,500,600,700,800,900&display=swap");
+
+.white-bg {
+    background: #ffffff
+}
+
+.gray-bg {
+    background: #f5f5f5
+}
+
+.gray-bg {
+    background: #f7f7fd
+}
+
+.white-bg {
+    background: #fff
+}
+
+.black-bg {
+    background: #16161a
+}
+
+.theme-bg {
+    background: #fb246a
+}
+
+.brand-bg {
+    background: #f1f4fa
+}
+
+.testimonial-bg {
+    background: #f9fafc
+}
+
+.white-color {
+    color: #fff
+}
+
+.black-color {
+    color: #16161a
+}
+
+.theme-color {
+    color: #fb246a
+}
+
+.boxed-btn {
+    background: #fff;
+    color: #fb246a !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Muli",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #fb246a;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fb246a;
+    text-transform: uppercase;
+    cursor: pointer
+}
+
+    .boxed-btn:hover {
+        background: #fb246a;
+        color: #fff !important;
+        border: 1px solid #fb246a
+    }
+
+    .boxed-btn:focus {
+        outline: none
+    }
+
+    .boxed-btn.large-width {
+        width: 220px
+    }
+
+[data-overlay] {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+    [data-overlay]::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        content: ""
+    }
+
+[data-opacity="1"]::before {
+    opacity: 0.1
+}
+
+[data-opacity="2"]::before {
+    opacity: 0.2
+}
+
+[data-opacity="3"]::before {
+    opacity: 0.3
+}
+
+[data-opacity="4"]::before {
+    opacity: 0.4
+}
+
+[data-opacity="5"]::before {
+    opacity: 0.5
+}
+
+[data-opacity="6"]::before {
+    opacity: 0.6
+}
+
+[data-opacity="7"]::before {
+    opacity: 0.7
+}
+
+[data-opacity="8"]::before {
+    opacity: 0.8
+}
+
+[data-opacity="9"]::before {
+    opacity: 0.9
+}
